@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'Montserrat Light';
+    src: url('../fonts/montserrat-light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Montserrat Semibold';
+    src: url('../fonts/montserrat-semibold.ttf') format('truetype');
+    font-weight: 500;
+}
+
+body {
+    color: white;
+    font-family: "Montserrat Light";
+    overflow: hidden;
+}
+
+header {
+    background-color: #06166B;
+    padding: 3% 3%;
+}
+
+.container {
+    margin: 0 15%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+li {
+    padding-right: 10%;
+}
+
+a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    letter-spacing: .3rem;
+
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.social-media>img {
+    padding-right: 7%;
+    width: 25px;
+}
+
+.cta-projects {
+    border: 1px solid #1B9B96;
+    background: none;
+    color: white;
+    padding: 15px 20px;
+    letter-spacing: .3rem;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-content-left {
+    margin-top: 10%;
+}
+
+
+.main-content-left>p {
+    font-family: 'Montserrat Light';
+    font-size: 2rem;
+    color: #1B9B96;
+    letter-spacing: 2px;
+    width: 75%;
+    line-height: 2;
+}
+
+.main-content-right {
+    margin-top: 5%;
+}
+
+h1 {
+    color: #1B9B96;
+    font-family: 'Montserrat Semibold';
+    font-size: 6rem;
+    letter-spacing: .3rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Helvetica Neue';
+    font-weight: 400;
+    font-size: 2rem;
+    margin: 0;
+    letter-spacing: .2rem;
+}
+
+.oval {
+    width: 30%;
+    border-radius: 3rem;
+    background-color: #1B9B96;
+    margin-bottom: 3%;
+
+}
+
+.oval-text {
+    font-size: 2rem;
+    padding: 15px;
+    text-align: center;
+}
+
+.circle-big {
+    height: 560px;
+    width: 560px;
+    border-radius: 50%;
+    opacity: .78;
+
+}
+
+.circle-small {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circle-1 {
+    background-color: rgb(27, 155, 150, .57);
+    border: 1.5px dashed #DBDADA;
+}
+
+.circle-2 {
+    background-color: #1B9B96;
+    position: relative;
+    top: -20%;
+    left: -35%;
+}
+
+.circle-3 {
+    position: relative;
+    bottom: 40%;
+    left: 112%;
+}
+
+.circle-4 {
+    position: relative;
+    bottom: 35%;
+    right: 45%;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid #1B9B96;
+}
+
+.triangle-1 {
+    position: absolute;
+    bottom: 80%;
+    right: 40%;
+}
+
+.triangle-2 {
+    position: absolute;
+    bottom: 18%;
+    left: 80%;
+}
+
+.brackets-img {
+    background-image: url(../img/Group\ 2.svg);
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 200px;
+}
+
+.brackets-img-1 {
+    position: relative;
+    bottom: 75%;
+    right: 40%;
+}
+
+.brackets-img-2 {
+    position: absolute;
+    top: 70%;
+    left: 68%;
+}

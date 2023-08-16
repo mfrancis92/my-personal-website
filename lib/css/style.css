@@ -52,6 +52,10 @@ a {
 
 }
 
+button {
+    cursor: pointer;
+}
+
 .social-media {
     display: flex;
     align-items: center;
@@ -172,7 +176,7 @@ h2 {
 
 .triangle-1 {
     position: absolute;
-    bottom: 80%;
+    bottom: 75%;
     right: 40%;
 }
 
